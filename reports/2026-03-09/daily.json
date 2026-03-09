@@ -6,12 +6,13 @@
       "repo": "GoogleCloudPlatform/generative-ai",
       "rank": 1,
       "track": "通用开发",
-      "score": 78,
+      "score": 75,
       "heat": 94,
       "reproducibility": 72,
       "business": 78,
       "xBoost": 0,
-      "difficulty": "中",
+      "forumBoost": 6,
+      "difficulty": "低",
       "plan": [
         "Day1: 复现核心功能最小闭环",
         "Day2: 输出差异化定位与用户画像",
@@ -26,71 +27,12 @@
       "repo": "openclaw/openclaw",
       "rank": 2,
       "track": "通用开发",
-      "score": 75,
+      "score": 67,
       "heat": 88,
       "reproducibility": 72,
       "business": 78,
       "xBoost": 0,
-      "difficulty": "低",
-      "plan": [
-        "Day1: 复现核心功能最小闭环",
-        "Day2: 输出差异化定位与用户画像",
-        "Day3: 做一个可分享 demo 页面",
-        "Day4: 接入基础数据埋点",
-        "Day5: 发布第一版并收集反馈",
-        "Day6: 修复高频问题并补文档",
-        "Day7: 发复盘与下一步路线图"
-      ]
-    },
-    {
-      "repo": "666ghj/MiroFish",
-      "rank": 3,
-      "track": "通用开发",
-      "score": 68,
-      "heat": 82,
-      "reproducibility": 72,
-      "business": 60,
-      "xBoost": 0,
-      "difficulty": "低",
-      "plan": [
-        "Day1: 复现核心功能最小闭环",
-        "Day2: 输出差异化定位与用户画像",
-        "Day3: 做一个可分享 demo 页面",
-        "Day4: 接入基础数据埋点",
-        "Day5: 发布第一版并收集反馈",
-        "Day6: 修复高频问题并补文档",
-        "Day7: 发复盘与下一步路线图"
-      ]
-    },
-    {
-      "repo": "karpathy/nanochat",
-      "rank": 4,
-      "track": "通用开发",
-      "score": 66,
-      "heat": 76,
-      "reproducibility": 72,
-      "business": 60,
-      "xBoost": 0,
-      "difficulty": "低",
-      "plan": [
-        "Day1: 复现核心功能最小闭环",
-        "Day2: 输出差异化定位与用户画像",
-        "Day3: 做一个可分享 demo 页面",
-        "Day4: 接入基础数据埋点",
-        "Day5: 发布第一版并收集反馈",
-        "Day6: 修复高频问题并补文档",
-        "Day7: 发复盘与下一步路线图"
-      ]
-    },
-    {
-      "repo": "666ghj/BettaFish",
-      "rank": 5,
-      "track": "通用开发",
-      "score": 64,
-      "heat": 70,
-      "reproducibility": 72,
-      "business": 60,
-      "xBoost": 0,
+      "forumBoost": 0,
       "difficulty": "低",
       "plan": [
         "Day1: 复现核心功能最小闭环",
@@ -106,11 +48,54 @@
       "repo": "NousResearch/hermes-agent",
       "rank": 6,
       "track": "AI工具链",
-      "score": 64,
+      "score": 63,
       "heat": 64,
       "reproducibility": 62,
       "business": 78,
       "xBoost": 0,
+      "forumBoost": 6,
+      "difficulty": "低",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    },
+    {
+      "repo": "666ghj/MiroFish",
+      "rank": 3,
+      "track": "通用开发",
+      "score": 61,
+      "heat": 82,
+      "reproducibility": 72,
+      "business": 60,
+      "xBoost": 0,
+      "forumBoost": 0,
+      "difficulty": "低",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    },
+    {
+      "repo": "karpathy/nanochat",
+      "rank": 4,
+      "track": "通用开发",
+      "score": 59,
+      "heat": 76,
+      "reproducibility": 72,
+      "business": 60,
+      "xBoost": 0,
+      "forumBoost": 0,
       "difficulty": "低",
       "plan": [
         "Day1: 复现核心功能最小闭环",
@@ -131,6 +116,28 @@
       "reproducibility": 62,
       "business": 78,
       "xBoost": 0,
+      "forumBoost": 6,
+      "difficulty": "低",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    },
+    {
+      "repo": "666ghj/BettaFish",
+      "rank": 5,
+      "track": "通用开发",
+      "score": 57,
+      "heat": 70,
+      "reproducibility": 72,
+      "business": 60,
+      "xBoost": 0,
+      "forumBoost": 0,
       "difficulty": "低",
       "plan": [
         "Day1: 复现核心功能最小闭环",
@@ -146,11 +153,12 @@
       "repo": "alibaba/page-agent",
       "rank": 9,
       "track": "AI工具链",
-      "score": 57,
+      "score": 56,
       "heat": 46,
       "reproducibility": 62,
       "business": 78,
       "xBoost": 0,
+      "forumBoost": 6,
       "difficulty": "低",
       "plan": [
         "Day1: 复现核心功能最小闭环",
@@ -172,6 +180,28 @@
         "创业",
         "AI",
         "融资"
+      ]
+    }
+  ],
+  "forumSignals": [
+    {
+      "source": "linux.do",
+      "title": "AI coding 最佳实践讨论",
+      "url": "https://linux.do",
+      "tags": [
+        "ai-coding",
+        "workflow",
+        "agent"
+      ]
+    },
+    {
+      "source": "hn",
+      "title": "Show HN: AI agent tooling threads",
+      "url": "https://news.ycombinator.com",
+      "tags": [
+        "show-hn",
+        "agents",
+        "oss"
       ]
     }
   ]

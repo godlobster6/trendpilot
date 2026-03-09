@@ -6,16 +6,19 @@ function inferTrack(repo) {
   return '通用开发';
 }
 
-export function scoreProjects(projects, { xSignals = [] } = {}) {
+export function scoreProjects(projects, { xSignals = [], forumSignals = [] } = {}) {
   const xText = xSignals.map(x => `${x.title} ${(x.tags || []).join(' ')}`.toLowerCase()).join(' ');
+  const forumText = forumSignals.map(f => `${f.title} ${(f.tags || []).join(' ')}`.toLowerCase()).join(' ');
 
   return projects.map((p) => {
     const track = inferTrack(p.repo);
     const heat = Math.max(0, 100 - p.rank * 6);
     const reproducibility = p.rank <= 5 ? 72 : 62;
     const business = /ai|agent|open|ui|tool|code|workflow/i.test(p.repo) ? 78 : 60;
-    const xBoost = xText && p.repo.toLowerCase().split('/').some(k => k.length > 3 && xText.includes(k)) ? 8 : 0;
-    const score = Math.min(100, Math.round(heat * 0.38 + reproducibility * 0.28 + business * 0.28 + xBoost));
+    const keys = p.repo.toLowerCase().split('/').filter(k => k.length > 3);
+    const xBoost = xText && keys.some(k => xText.includes(k)) ? 8 : 0;
+    const forumBoost = forumText && (keys.some(k => forumText.includes(k)) || /agent|ai|workflow|tool/.test(p.repo.toLowerCase())) ? 6 : 0;
+    const score = Math.min(100, Math.round(heat * 0.34 + reproducibility * 0.26 + business * 0.24 + xBoost + forumBoost));
 
     return {
       ...p,
@@ -25,7 +28,8 @@ export function scoreProjects(projects, { xSignals = [] } = {}) {
       reproducibility,
       business,
       xBoost,
-      difficulty: score >= 78 ? '中' : '低'
+      forumBoost,
+      difficulty: score >= 82 ? '中' : '低'
     };
   }).sort((a, b) => b.score - a.score);
 }

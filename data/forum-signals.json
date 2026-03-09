@@ -1,0 +1,14 @@
+[
+  {
+    "source": "linux.do",
+    "title": "AI coding 最佳实践讨论",
+    "url": "https://linux.do",
+    "tags": ["ai-coding", "workflow", "agent"]
+  },
+  {
+    "source": "hn",
+    "title": "Show HN: AI agent tooling threads",
+    "url": "https://news.ycombinator.com",
+    "tags": ["show-hn", "agents", "oss"]
+  }
+]

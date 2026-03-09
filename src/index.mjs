@@ -1,5 +1,6 @@
 import { fetchGithubTrending } from './collector/github.mjs';
 import { fetchXSignals } from './collector/x.mjs';
+import { fetchForumSignals } from './collector/forum.mjs';
 import { scoreProjects } from './analyzer/score.mjs';
 import { buildPlan } from './planner/plan.mjs';
 import { renderMarkdownReport, renderJsonReport } from './reporter/markdown.mjs';
@@ -10,15 +11,16 @@ const limit = Number(process.env.TRENDPILOT_TOP_N || 8);
 
 const trending = await fetchGithubTrending();
 const xSignals = await fetchXSignals();
+const forumSignals = await fetchForumSignals();
 
-const scored = scoreProjects(trending, { xSignals });
+const scored = scoreProjects(trending, { xSignals, forumSignals });
 const planned = buildPlan(scored.slice(0, limit));
 
 const reportDir = `reports/${today}`;
 mkdirSync(reportDir, { recursive: true });
 
-const md = renderMarkdownReport({ date: today, projects: planned, xSignals, limit });
-const json = renderJsonReport({ date: today, projects: planned, xSignals, limit });
+const md = renderMarkdownReport({ date: today, projects: planned, xSignals, forumSignals, limit });
+const json = renderJsonReport({ date: today, projects: planned, xSignals, forumSignals, limit });
 
 writeFileSync(`${reportDir}/daily.md`, md, 'utf8');
 writeFileSync(`${reportDir}/daily.json`, JSON.stringify(json, null, 2), 'utf8');
