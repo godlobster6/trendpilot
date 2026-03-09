@@ -37,3 +37,10 @@ node src/index.mjs
 - 输出双报告：`daily.md` + `daily.json`
 - 新增赛道识别（AI工具链/前端产品/基础设施/通用开发）
 - 引入 X 信号匹配加权（X Boost）
+
+
+## v0.3 改进
+- 新增论坛信号源：`data/forum-signals.json`
+- 新增采集模块：`src/collector/forum.mjs`
+- 评分模型支持论坛加权（`Forum Boost`）
+- 日报新增 `Forum Signals` 区块
