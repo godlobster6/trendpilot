@@ -1,0 +1,178 @@
+{
+  "date": "2026-03-09",
+  "topN": 8,
+  "projects": [
+    {
+      "repo": "GoogleCloudPlatform/generative-ai",
+      "rank": 1,
+      "track": "通用开发",
+      "score": 78,
+      "heat": 94,
+      "reproducibility": 72,
+      "business": 78,
+      "xBoost": 0,
+      "difficulty": "中",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "rank": 2,
+      "track": "通用开发",
+      "score": 75,
+      "heat": 88,
+      "reproducibility": 72,
+      "business": 78,
+      "xBoost": 0,
+      "difficulty": "低",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    },
+    {
+      "repo": "666ghj/MiroFish",
+      "rank": 3,
+      "track": "通用开发",
+      "score": 68,
+      "heat": 82,
+      "reproducibility": 72,
+      "business": 60,
+      "xBoost": 0,
+      "difficulty": "低",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    },
+    {
+      "repo": "karpathy/nanochat",
+      "rank": 4,
+      "track": "通用开发",
+      "score": 66,
+      "heat": 76,
+      "reproducibility": 72,
+      "business": 60,
+      "xBoost": 0,
+      "difficulty": "低",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    },
+    {
+      "repo": "666ghj/BettaFish",
+      "rank": 5,
+      "track": "通用开发",
+      "score": 64,
+      "heat": 70,
+      "reproducibility": 72,
+      "business": 60,
+      "xBoost": 0,
+      "difficulty": "低",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "rank": 6,
+      "track": "AI工具链",
+      "score": 64,
+      "heat": 64,
+      "reproducibility": 62,
+      "business": 78,
+      "xBoost": 0,
+      "difficulty": "低",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "rank": 8,
+      "track": "AI工具链",
+      "score": 59,
+      "heat": 52,
+      "reproducibility": 62,
+      "business": 78,
+      "xBoost": 0,
+      "difficulty": "低",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    },
+    {
+      "repo": "alibaba/page-agent",
+      "rank": 9,
+      "track": "AI工具链",
+      "score": 57,
+      "heat": 46,
+      "reproducibility": 62,
+      "business": 78,
+      "xBoost": 0,
+      "difficulty": "低",
+      "plan": [
+        "Day1: 复现核心功能最小闭环",
+        "Day2: 输出差异化定位与用户画像",
+        "Day3: 做一个可分享 demo 页面",
+        "Day4: 接入基础数据埋点",
+        "Day5: 发布第一版并收集反馈",
+        "Day6: 修复高频问题并补文档",
+        "Day7: 发复盘与下一步路线图"
+      ]
+    }
+  ],
+  "xSignals": [
+    {
+      "source": "x",
+      "title": "大四学生拿到3000万融资（话题热帖）",
+      "url": "https://x.com/li12826221/status/2030850949879857492?s=20",
+      "tags": [
+        "创业",
+        "AI",
+        "融资"
+      ]
+    }
+  ]
+}

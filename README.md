@@ -30,3 +30,10 @@ node src/index.mjs
   }
 ]
 ```
+
+
+## v0.2 改进
+- 支持 `TRENDPILOT_TOP_N` 控制输出项目数量（默认 8）
+- 输出双报告：`daily.md` + `daily.json`
+- 新增赛道识别（AI工具链/前端产品/基础设施/通用开发）
+- 引入 X 信号匹配加权（X Boost）
