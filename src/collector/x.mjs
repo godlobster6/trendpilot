@@ -1,10 +1,11 @@
+import { readFile } from "node:fs/promises";
+
 export async function fetchXSignals() {
-  return [
-    {
-      source: 'x',
-      title: '大四学生拿到3000万融资（话题热帖）',
-      url: 'https://x.com/li12826221/status/2030850949879857492?s=20',
-      tags: ['创业', 'AI', '融资']
-    }
-  ];
+  try {
+    const raw = await readFile(new URL('../../data/x-signals.json', import.meta.url), 'utf8');
+    const data = JSON.parse(raw);
+    return Array.isArray(data) ? data : [];
+  } catch {
+    return [];
+  }
 }
